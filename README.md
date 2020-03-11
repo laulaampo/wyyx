@@ -1,24 +1,39 @@
-# wyyx
+##项目名字:网易严选
+###项目功能:
+####1.搜索
+  a)搜索热词数据渲染
+  b)静态页面的实现
+  c)多个组件能够跳转到搜索组件
+####2.首页展示
+  a)静态页面的实现
+  b)导航条内容的请求和渲染 使用batter-scroll插件实现滑动
+  c)使用swiper插件完成首页轮播图
+  d)商品分类导航的数据动态展示已经分类信息详情的静态页面
+  e)可跳转到分类信息详情页面
+  f)组件内部的交互显示效果
+####3.列表界面展示
+  a)实现了静态页面
+  b)使用axios+mockjs拿到了数据并且渲染
+  c)拆分了右侧组件 根据坐标的索引值渲染对应的数据（部分数据缺失）
+  d)使用batter-scroll优化了效果
+####4.详情页
+  a)实现了静态页面（拿不到数据）
+####5.购物车
+  a)实现了购物车的静态页面
+  b)实现了跳转至不同组件的功能
+####6.个人中心
+  a)使用了路由守卫 没有登录则强制跳转到登录界面
+####7.底部导航
+  a)完成了静态样式和结构
+  b)实现了不同组件之间的切换以及部分组件不显示底部导航
+####8.登录
+  a)完成了静态页面
+  b)使用状态属性管理展示三种登录方式的页面且可以相互切换
+  c)使用vee-validate进行表单验证
+  d)根据不同登录方式收集不同数据 使用mockjs拦截登录返回虚拟用户信息
 
-## Project setup
-```
-npm install
-```
+####主要使用的插件有：
+  mock..js   	vue-router  	vee-validate  	swiper 	  batter-scroll 	axios	  vuex
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+####Github仓库：
+  

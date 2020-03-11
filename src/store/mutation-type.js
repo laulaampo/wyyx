@@ -1,0 +1,2 @@
+export const  RECIVE_LEFT_NAV = 'RECIVE_LEFT_NAV'
+export const  RECIVE_CATEGORY = 'RECIVE_CATEGORY'

@@ -1,0 +1,6 @@
+[0308/112448.398:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0308/143835.929:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0309/113511.269:ERROR:process_info.cc(359)] UncheckedAllocate
+[0310/160800.135:ERROR:process_info.cc(359)] UncheckedAllocate
+[0311/111342.824:ERROR:process_info.cc(359)] UncheckedAllocate
+[0311/111759.250:ERROR:process_info.cc(359)] UncheckedAllocate
